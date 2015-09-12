@@ -11,7 +11,7 @@ title: Google Summer of Code 2015
 
 For my Google Sumer of Code I developed a Windows port for the p5.js IDE, and fixed bugs for said editor. It’s now on the p5.js website! While it still has bugs, you can try it out on [the downloads page](http://p5js.org/download/). ([source code](https://github.com/processing/p5.js-editor))
 
-### 2) Expanding the Kinect libraries [openKinect](https://github.com/shiffman/OpenKinect-for-Processing) and [KinectPV2] (https://github.com/ThomasLengeling/KinectPV2) by [Thomas Sanchez Lengeling](http://codigogenerativo.com/), mentored by [Elie Zananiri](http://dpt.co/)
+### 2) New Kinect libraries [openKinect](https://github.com/shiffman/OpenKinect-for-Processing) and [KinectPV2] (https://github.com/ThomasLengeling/KinectPV2) by [Thomas Sanchez Lengeling](http://codigogenerativo.com/), mentored by [Elie Zananiri](http://dpt.co/)
 
 
 ![Examples of the libraries updates](http://codigogenerativo.com/wp-content/uploads/Kinect_final.png)
