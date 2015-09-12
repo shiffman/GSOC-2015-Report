@@ -16,4 +16,4 @@ For my Google Sumer of Code I developed a Windows port for the p5.js IDE, and fi
 
 ![Examples of the libraries updates](http://codigogenerativo.com/wp-content/uploads/Kinect_final.png)
 
-The goal of the project was to expand and update the existing Kinect libraries; OpenKinect-for-Processing and KinectPV2. The openKinect library now supports the new Kinect v2 for Mac and Windows and Kinect v1 for Windows and Linux. For the KinectPV2, functionalities include: skeleton tracking, face detection, process frame raw data, point cloud extraction and contour extraction.
+The goal of the project was to expand and update the existing Kinect libraries; OpenKinect-for-Processing and KinectPV2. The openKinect library now supports the new Kinect v2 for Mac and Windows and Kinect v1 for Windows and Linux. For the KinectPV2, functionalities include: skeleton tracking, face detection, process frame raw data, point cloud extraction and contour extraction. Source Code on github: [OpenKinect-for-Processing](https://github.com/shiffman/OpenKinect-for-Processing) and [KinectPV2](https://github.com/ThomasLengeling/KinectPV2).
