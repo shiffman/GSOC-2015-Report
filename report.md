@@ -23,3 +23,9 @@ The goal of the project was to expand and update the existing Kinect libraries; 
 ![Processing.py Mock Image](http://i.imgur.com/mVybW32m.png)
 
 Prior to the start of the Google Summer of Code, Processing’s Python mode would not work at all with Processing 3.0 do to some extensive back end changes. Fortunately, this summer saw the revitalization and updating of Python Mode! Users may now write Processing 3.0 Sketches using Python syntax in the new editor. Due to a few outstanding bugs, it has not yet been officially released, but feel free to try it out by building the [Processing.py Source](https://github.com/Luxapodular/processing.py) on your own machine. In addition to once again making Python Mode functional, I have edited over 1000 lines of reference code as well as ported 9 new tutorials! [Feel free to check them out and leave feedback!](https://github.com/Luxapodular/processing-py-site) 
+
+### 4) [Web IDE for p5.js](https://github.com/therewasaguy/p5js-webIDE) by [Jason Sigal](http://jasonsigal.cc), mentored by [Daniel Shiffman](http://shiffman.net/)
+
+![p5 web ide screenshot](http://i.imgur.com/yKAxxMD.png)
+
+A browser-based code editor, designed specifically for the p5.js community. The project adapts the p5.js Desktop IDE (originally by Sam Lavigne, GSOC '14) for the web, with inspiration/insight from Gene Kogan's p5 Sandbox. The goal is to make it easy to create, browse, share, and remix creative code sketches directly from the browser. Every project gets a unique URL and version control (through GitHub Gists). Logged-in users can access their previous sketches, and all users can access curated p5.js examples. Create an account and start sketching! Demo at [p5ide.herokuapp.com](http://p5ide.herokuapp.com/).
