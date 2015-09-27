@@ -29,3 +29,7 @@ Prior to the start of the Google Summer of Code, Processing’s Python mode woul
 ![p5 web ide screenshot](http://i.imgur.com/yKAxxMD.png)
 
 A browser-based code editor, designed specifically for the p5.js community. The project adapts the p5.js Desktop IDE (originally by Sam Lavigne, GSOC '14) for the web, with inspiration/insight from Gene Kogan's p5 Sandbox. The goal is to make it easy to create, browse, share, and remix creative code sketches directly from the browser. Every project gets a unique URL and version control (through GitHub Gists). Logged-in users can access their previous sketches, and all users can access curated p5.js examples. Create an account and start sketching! Demo at [p5ide.herokuapp.com](http://p5ide.herokuapp.com/).
+
+### 5) Processing for ARM & Raspberry Pi by [Gottfried Haider](http://gottfriedhaider.com/), mentored by Ben Fry
+
+Getting Processing to play well with the Raspberry Pi and similar ARM-powered computers was the focus of this project. Initial upbringing was completed and merged into Processing. The remaining bits (OpenGL support and a library for accessing the build-in hardware peripherals) currently live [in this git repository](https://github.com/gohai/processing/commits/arm), but are to be merged soon as well.
