@@ -33,3 +33,13 @@ A browser-based code editor, designed specifically for the p5.js community. The 
 ### 5) Processing for ARM & Raspberry Pi by [Gottfried Haider](http://gottfriedhaider.com/), mentored by Ben Fry
 
 Getting Processing to play well with the Raspberry Pi and similar ARM-powered computers was the focus of this project. Initial upbringing was completed and merged into Processing. The remaining bits (OpenGL support and a library for accessing the build-in hardware peripherals) currently live [in this git repository](https://github.com/gohai/processing/commits/arm), but are to be merged soon as well.
+
+### 6) [p5.SVG](https://github.com/zenozeng/p5.js-svg) and [p5.PDF](https://github.com/zenozeng/p5.js-pdf) by [Zeno Zeng](https://github.com/zenozeng), mentored by [Danne Woo](https://github.com/dannewoo)
+
+The main goal of p5.SVG is to provide a SVG runtime for p5.js, so that we can draw using p5's powerful API in \<svg\>, save things to svg file and manipulating existing SVG file without rasterization.
+
+Source code on GitHub: https://github.com/zenozeng/p5.js-svg
+
+As for p5.PDF, it's a simple PDF export module for p5.js based on browser's print to pdf function.
+
+Source code on GitHub: https://github.com/zenozeng/p5.js-pdf
