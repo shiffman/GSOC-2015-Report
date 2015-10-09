@@ -43,3 +43,15 @@ Source code on GitHub: https://github.com/zenozeng/p5.js-svg
 As for p5.PDF, it's a simple PDF export module for p5.js based on browser's print to pdf function.
 
 Source code on GitHub: https://github.com/zenozeng/p5.js-pdf
+
+### 7) [internationalization of p5.js website](https://github.com/mayaman/p5js-website) & [collection of sketches for the p5.js community statement video](https://github.com/mayaman/p5jsCommunitySketches) by [Maya Man](https://github.com/mayaman/), mentored by [Johanna Hedva](http://www.johannahedva.com/)
+
+![webiste (english)](http://i.imgur.com/jBwtWP3.png)
+![webiste (spanish)](http://i.imgur.com/J1wwOx3.png)
+
+This summer, I worked primarily on two separate projects. First, I rebuilt the p5.js (currently built in php) using Node.js, Assemble, Grunt, Handlebars, & YAML to support internationalization (easy tranlations from English to foreign languages // button styling to be adjusted & tranlsations to be completed at upcoming translat-a-thons). Second, I collected and currated sketches contributed from people around the world to play in the background our p5.js community statement video. Check out the projects on my github (source code below)!
+
+[i18n site source code](https://github.com/mayaman/p5js-website)
+
+[community sketches source code](https://github.com/mayaman/p5jsCommunitySketches)
+
