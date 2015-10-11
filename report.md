@@ -63,4 +63,6 @@ There are icons indicating the status of every contribution in the first column 
 There is separate tab showing contributions which need upgradation.  
 ![Updates tab](http://i.imgur.com/2kIC0EJ.png)  
 User can also search contributions based on a filter.  
-![Filter](http://i.imgur.com/zmcpaI3.png)
+![Filter](http://i.imgur.com/zmcpaI3.png)  
+
+Another small part of the project was to test all the libraries and their examples to check their compatibility with Processing 3.0 and collect data about what is missing in them.
