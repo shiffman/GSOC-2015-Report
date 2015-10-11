@@ -57,7 +57,8 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 ### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
 
-![p5 webGL sketch1](https://pbs.twimg.com/tweet_video/CQkaxt6VAAAVB7H.mp4)
+[![sketch1 video](http://imgur.com/m7O5gFb.jpg)](https://pbs.twimg.com/tweet_video/CQkaxt6VAAAVB7H.mp4)
+[![sketch1 video](http://i.imgur.com/k5KHqvG.jpg)](https://pbs.twimg.com/tweet_video/CQkcxHVVEAAhY78.mp4)
 
 A light-weight webGL renderer for p5.js. 
 
