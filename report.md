@@ -61,7 +61,7 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
  A light-weight webGL renderer for p5.js. Now is already part of p5.js.
  
- Over the summer, basic webGL APIs for p5.js are implemented. It enalbes you to create sketch under WebGL mode, while all the syntaxes remain consistent with p5 2d.
+ Over the summer, basic webGL APIs for p5.js are implemented. It enables you to create sketches under WebGL mode, while all the syntaxes remain consistent with p5 2D (default) mode.
  
  WebGL APIs includes: cameras, geometries, lights, materials, texture, etc. For more detial, [references](http://p5js.org/reference/) are documented. Get started with p5 webGL [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5). Take a look at 3D [examples](http://p5js.org/examples/).
 
