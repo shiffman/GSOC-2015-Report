@@ -57,10 +57,10 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 ### 8) Contribution Manager UI upgrade by [Akarshit Wal](https://github.com/Akarshit), mentored by [Scott Murray](https://github.com/alignedleft)
 
-Contribution Manager is a tool which lets uers install/upgrade/remove various libraries and other contributions. The aim of the project was to change UI of the Contribution Manager and make it more user-friendly. The Contribution Manager looks like this now -
+Contribution Manager is a tool which lets uers install/upgrade/remove various libraries and other contributions. The aim of the project was to change UI of the Contribution Manager and make it more user-friendly. The Contribution Manager looks like this now -  
 ![Contribution Manager](http://i.imgur.com/TuEATTb.png)
 There are icons indicating the status of every contribution in the first column of the list.
-There is separate tab showing contributions which need upgradation.
+There is separate tab showing contributions which need upgradation.  
 ![Updates tab](http://i.imgur.com/2kIC0EJ.png)
-User can also search contributions based on a filter.
+User can also search contributions based on a filter.  
 ![Filter](http://i.imgur.com/zmcpaI3.png)
