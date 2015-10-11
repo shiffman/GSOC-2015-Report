@@ -57,10 +57,14 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 ### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
 
-[![sketch1 video](http://imgur.com/m7O5gFb.jpg)](https://pbs.twimg.com/tweet_video/CQkaxt6VAAAVB7H.mp4)
-[![sketch1 video](http://i.imgur.com/k5KHqvG.jpg)](https://pbs.twimg.com/tweet_video/CQkcxHVVEAAhY78.mp4)
+![p5 webGL renderer](http://imgur.com/wK0hJe1.jpg)
 
-A light-weight webGL renderer for p5.js. 
+ A light-weight webGL renderer for p5.js. Now is already part of p5.js.
+ 
+ Over the summer, basic webGL APIs for p5.js are implemented. It enalbes you to create sketch under WebGL mode, while all the syntaxes remain consistent with p5 2d.
+ 
+ WebGL APIs includes: cameras, geometries, lights, materials, texture, etc. For more detial, [references](http://p5js.org/reference/) are documented. Get started with p5 webGL [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5). Take a look at 3D [examples](http://p5js.org/examples/).
+
 
 
 
