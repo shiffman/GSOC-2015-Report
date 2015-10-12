@@ -55,7 +55,19 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 [community sketches source code](https://github.com/mayaman/p5jsCommunitySketches)
 
-### 8) [RSyntaxTextArea integration](https://github.com/joelmoniz/processing/tree/RSTA) and the [REPL Mode](https://github.com/joelmoniz/REPLmode) by [Joel Moniz](http://joelmoniz.com/), mentored by [Manindra Moharana](http://www.mkmoharana.com/)
+### 8) Contribution Manager UI upgrade by [Akarshit Wal](https://github.com/Akarshit), mentored by [Scott Murray](https://github.com/alignedleft)
+
+Contribution Manager is a tool which lets uers install/upgrade/remove various libraries and other contributions. The aim of the project was to change UI of the Contribution Manager and make it more user-friendly. The Contribution Manager looks like this now -  
+![Contribution Manager](http://i.imgur.com/TuEATTb.png)  
+There are icons indicating the status of every contribution in the first column of the list.
+There is separate tab showing contributions which need upgradation.  
+![Updates tab](http://i.imgur.com/2kIC0EJ.png)  
+User can also search contributions based on a filter.  
+![Filter](http://i.imgur.com/zmcpaI3.png)  
+
+Another small part of the project was to test all the libraries and their examples to check their compatibility with Processing 3.0 and collect data about what is missing in them.
+  
+### 9) [RSyntaxTextArea integration](https://github.com/joelmoniz/processing/tree/RSTA) and the [REPL Mode](https://github.com/joelmoniz/REPLmode) by [Joel Moniz](http://joelmoniz.com/), mentored by [Manindra Moharana](http://www.mkmoharana.com/)
 
 * RSyntaxTextArea integration  
   
