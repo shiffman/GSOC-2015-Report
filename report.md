@@ -55,3 +55,17 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 [community sketches source code](https://github.com/mayaman/p5jsCommunitySketches)
 
+### 8) [Video and Audio streaming library](https://github.com/nconfrey/GSoC)
+**Thanks to [Andres Coulbri](https://github.com/codeanticode/) and [Gottfried Haider](https://github.com/gohai) for their exceptionally helpful code and examples. Thanks also to my mentor Dan Shiffman for direction and help throughout all the weeks.**
+This project is broken up into roughly three useful parts. It originally focused on streaming media over the network, primarily video and audio streams, but evolved to include revamping Processing's video core video framework. I planned to write networking code in Java, but the project evolved to consist of learning and developing C to Java conversion through Java Native Interface and Java Native Access. Along the way I also picked up skills in video codecs, network packet payloading, and audio encoding.
+
+The first part of the project was modifications and extensions to the existing Processing network library.
+
+The second part was upgrading Processing's video capability to use GStreamer 1.0 instead of the depreciated GStreamer 0.10 which Processing was previously relying. Finally, the Processing community can access the most recent version of GStreamer, and with it, the most recent plugins. While the code itself is highly tailored towards videostreaming and video playback, the same JNI technique can be used to access the wealth of GStreamer resources, from CD ripping all the way to audio analysis. Processing users will now have much more power in the areas of video and audio. I have also left exposed a `public static void pipelineLaunch(String pipe)` function, which parses a GStreamer pipeline string and then launches and runs the pipeline.
+
+The third part of the project was creating a streaming library that allows Processing users to stream local videos and songs/audio files to other sketches and other computers.
+#Use Cases
+Currently, the videoStreaming Processing library can do the following:
+* Stream audio from one sketch to another in any of the common formats (.mp3, .wav etc.)
+* Stream video from one sketch to another in most of the common formats (.mp4 and .3gp work, .mov still needs more testing)
+* Stream the webcam from one computer to another using Processing
