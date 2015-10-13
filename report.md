@@ -55,6 +55,35 @@ This summer, I worked primarily on two separate projects. First, I rebuilt the p
 
 [community sketches source code](https://github.com/mayaman/p5jsCommunitySketches)
 
+### 8) Contribution Manager UI upgrade by [Akarshit Wal](https://github.com/Akarshit), mentored by [Scott Murray](https://github.com/alignedleft)
+
+Contribution Manager is a tool which lets uers install/upgrade/remove various libraries and other contributions. The aim of the project was to change UI of the Contribution Manager and make it more user-friendly. The Contribution Manager looks like this now -  
+![Contribution Manager](http://i.imgur.com/TuEATTb.png)  
+There are icons indicating the status of every contribution in the first column of the list.
+There is separate tab showing contributions which need upgradation.  
+![Updates tab](http://i.imgur.com/2kIC0EJ.png)  
+User can also search contributions based on a filter.  
+![Filter](http://i.imgur.com/zmcpaI3.png)  
+
+Another small part of the project was to test all the libraries and their examples to check their compatibility with Processing 3.0 and collect data about what is missing in them.
+  
+### 9) [RSyntaxTextArea integration](https://github.com/joelmoniz/processing/tree/RSTA) and the [REPL Mode](https://github.com/joelmoniz/REPLmode) by [Joel Moniz](http://joelmoniz.com/), mentored by [Manindra Moharana](http://www.mkmoharana.com/)
+
+* RSyntaxTextArea integration  
+  
+  The RSyntaxTextArea integration aimed at replacing the JEditTextArea, which is currently at heart of the PDE editor, with the [RSyntaxTextArea](https://github.com/bobbylight/RSyntaxTextArea) and the complementary [AutoComplete](https://github.com/bobbylight/AutoComplete) code completion library to bring several new features to the table, such as code folding and documentation support and parameter tabbing during auto-completion.  
+Here's a screenshot of the PDE after integration:
+  
+  ![The PDE with RSyntaxTextArea and AutoComplete](https://joelmoniz.files.wordpress.com/2015/10/rsta_fold_doc.png)
+  
+* REPL Mode  
+  
+  This mode adds a Read-Evaluate-Print-Loop console to processing, enabling users to type in processing code and to view the output of this code immediately. This mode also gives the PDE the ability to hot swap code, wherein the output corresponding to changes made in a running sketch can be viewed by simply saving the sketch, without restarting it. Here's a screengrab of the REPL Mode in action:
+  
+  ![The REPL Mode](https://joelmoniz.files.wordpress.com/2015/06/repl_output_usecase.png?w=716)
+  
+*A detailed report of everything that was undertaken this summer can be found [here](http://joelmoniz.com/gsoc-2015/).*
+
 ### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
 
 ![p5 webGL renderer](http://imgur.com/wK0hJe1.jpg)
