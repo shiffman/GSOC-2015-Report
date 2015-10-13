@@ -83,3 +83,16 @@ Here's a screenshot of the PDE after integration:
   ![The REPL Mode](https://joelmoniz.files.wordpress.com/2015/06/repl_output_usecase.png?w=716)
   
 *A detailed report of everything that was undertaken this summer can be found [here](http://joelmoniz.com/gsoc-2015/).*
+
+
+
+### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
+
+![p5 webGL renderer](http://imgur.com/wK0hJe1.jpg)
+
+ A light-weight webGL renderer for p5.js. Now is already part of p5.js.
+ 
+ Over the summer, basic webGL APIs for p5.js are implemented. It enables you to create sketches under WebGL mode, while all the syntaxes remain consistent with p5 2D (default) mode.
+ 
+ WebGL APIs includes: cameras, geometries, lights, materials, texture, etc. For more detial, [references](http://p5js.org/reference/) are documented. Get started with p5 webGL [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5). Take a look at 3D [examples](http://p5js.org/examples/).
+
