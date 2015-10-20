@@ -30,9 +30,15 @@ Prior to the start of the Google Summer of Code, Processing’s Python mode woul
 
 A browser-based code editor, designed specifically for the p5.js community. The project adapts the p5.js Desktop IDE (originally by Sam Lavigne, GSOC '14) for the web, with inspiration/insight from Gene Kogan's p5 Sandbox. The goal is to make it easy to create, browse, share, and remix creative code sketches directly from the browser. Every project gets a unique URL and version control (through GitHub Gists). Logged-in users can access their previous sketches, and all users can access curated p5.js examples. Create an account and start sketching! Demo at [p5ide.herokuapp.com](http://p5ide.herokuapp.com/).
 
-### 5) Processing for ARM & Raspberry Pi by [Gottfried Haider](http://gottfriedhaider.com/), mentored by Ben Fry
+### 5) Raspberry Pi and armv7hf support by [Gottfried Haider](http://gottfriedhaider.com/), mentored by Ben Fry
 
-Getting Processing to play well with the Raspberry Pi and similar ARM-powered computers was the focus of this project. Initial upbringing was completed and merged into Processing. The remaining bits (OpenGL support and a library for accessing the build-in hardware peripherals) currently live [in this git repository](https://github.com/gohai/processing/commits/arm), but are to be merged soon as well.
+Gottfried worked on making Processing play well with the Raspberry Pi and similar ARM-powered *microcomputers* (to borrow a term used in the 1970s to describe various kits and designs built around affordable microprocessors, such as the Motorola 6800).
+
+Initial support got [merged](https://github.com/processing/processing/commits/master?author=gohai) into processing.git in time for Processing 3.0. The upcoming 3.0.1 release will contain all remaining parts, such as the bits necessary for having working OpenGL graphics on the Pi (with some great help by the JOGL team).
+
+Part of the work also involved the creation of a new core library, [Hardware I/O](https://processing.org/reference/libraries/io/index.html), that was made to provide access to the hardware peripherals, such as GPIO, I2C and SPI, that are generally made available on pin headers on such systems. The hope was that using those could be as simple and straightforward as it is on the Arduino platform today.
+
+To learn more: Notes about running [Processing on ARM Linux](https://github.com/processing/processing/wiki/ARM-Linux) and the [Raspberry Pi & Raspberry Pi 2](https://github.com/processing/processing/wiki/Raspberry-Pi). A short (vertical!) [video clip](https://vimeo.com/131480032) showing the GPIOs in action.
 
 ### 6) [p5.SVG](https://github.com/zenozeng/p5.js-svg) and [p5.PDF](https://github.com/zenozeng/p5.js-pdf) by [Zeno Zeng](https://github.com/zenozeng), mentored by [Danne Woo](https://github.com/dannewoo)
 
