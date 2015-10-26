@@ -90,7 +90,11 @@ Here's a screenshot of the PDE after integration:
   
 *A detailed report of everything that was undertaken this summer can be found [here](http://joelmoniz.com/gsoc-2015/).*
 
+### 15) p5bots by [Sarah Groff-Palermo](http://sarahgp.com/), mentored by Shawn van Every
 
+![Graph of p5bots system](https://raw.githubusercontent.com/sarahgp/p5bots/master/img/how-it-works.png)
+
+p5bots combines a socket layer and a simplified API to enable users to interact with an Arduino (or other microprocessor) from within the browser. Use sensor data to drive a sketch; use a sketch to to affect the real world.
 
 ### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
 
