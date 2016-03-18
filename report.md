@@ -90,13 +90,13 @@ Here's a screenshot of the PDE after integration:
   
 *A detailed report of everything that was undertaken this summer can be found [here](http://joelmoniz.com/gsoc-2015/).*
 
-### 15) p5bots by [Sarah Groff-Palermo](http://sarahgp.com/), mentored by Shawn van Every
+### 10) p5bots by [Sarah Groff-Palermo](http://sarahgp.com/), mentored by Shawn van Every
 
 ![Graph of p5bots system](https://raw.githubusercontent.com/sarahgp/p5bots/master/img/how-it-works.png)
 
 p5bots combines a socket layer and a simplified API to enable users to interact with an Arduino (or other microprocessor) from within the browser. Use sensor data to drive a sketch; use a sketch to to affect the real world.
 
-### 16) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
+### 11) p5 WebGL Renderer by [Karen Peng](http://karenlabs.com), mentored by [Kevin Siwoff](http://http://kevinsiwoff.com/)
 
 ![p5 webGL renderer](http://imgur.com/wK0hJe1.jpg)
 
@@ -105,4 +105,19 @@ p5bots combines a socket layer and a simplified API to enable users to interact 
  Over the summer, basic webGL APIs for p5.js are implemented. It enables you to create sketches under WebGL mode, while all the syntaxes remain consistent with p5 2D (default) mode.
  
  WebGL APIs includes: cameras, geometries, lights, materials, texture, etc. For more detial, [references](http://p5js.org/reference/) are documented. Get started with p5 webGL [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5). Take a look at 3D [examples](http://p5js.org/examples/).
+ 
+ ### 12) [Video and Audio streaming library](https://github.com/nconfrey/GSoC)
+**Thanks to [Andres Coulbri](https://github.com/codeanticode/) and [Gottfried Haider](https://github.com/gohai) for their exceptionally helpful code and examples. Thanks also to my mentor Dan Shiffman for direction and help throughout all the weeks.**
+This project is broken up into roughly three useful parts. It originally focused on streaming media over the network, primarily video and audio streams, but evolved to include revamping Processing's video core video framework. I planned to write networking code in Java, but the project evolved to consist of learning and developing C to Java conversion through Java Native Interface and Java Native Access. Along the way I also picked up skills in video codecs, network packet payloading, and audio encoding.
+
+The first part of the project was modifications and extensions to the existing Processing network library.
+
+The second part was upgrading Processing's video capability to use GStreamer 1.0 instead of the depreciated GStreamer 0.10 which Processing was previously relying. Finally, the Processing community can access the most recent version of GStreamer, and with it, the most recent plugins. While the code itself is highly tailored towards videostreaming and video playback, the same JNI technique can be used to access the wealth of GStreamer resources, from CD ripping all the way to audio analysis. Processing users will now have much more power in the areas of video and audio. I have also left exposed a `public static void pipelineLaunch(String pipe)` function, which parses a GStreamer pipeline string and then launches and runs the pipeline.
+
+The third part of the project was creating a streaming library that allows Processing users to stream local videos and songs/audio files to other sketches and other computers.
+#Use Cases
+Currently, the videoStreaming Processing library can do the following:
+* Stream audio from one sketch to another in any of the common formats (.mp3, .wav etc.)
+* Stream video from one sketch to another in most of the common formats (.mp4 and .3gp work, .mov still needs more testing)
+* Stream the webcam from one computer to another using Processing
 
