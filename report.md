@@ -106,7 +106,7 @@ p5bots combines a socket layer and a simplified API to enable users to interact 
  
  WebGL APIs includes: cameras, geometries, lights, materials, texture, etc. For more detial, [references](http://p5js.org/reference/) are documented. Get started with p5 webGL [tutorial](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5). Take a look at 3D [examples](http://p5js.org/examples/).
  
- ### 12) [Video and Audio streaming library](https://github.com/nconfrey/GSoC)
+### 12) [Video and Audio streaming library](https://github.com/nconfrey/GSoC)
 **Thanks to [Andres Coulbri](https://github.com/codeanticode/) and [Gottfried Haider](https://github.com/gohai) for their exceptionally helpful code and examples. Thanks also to my mentor Dan Shiffman for direction and help throughout all the weeks.**
 This project is broken up into roughly three useful parts. It originally focused on streaming media over the network, primarily video and audio streams, but evolved to include revamping Processing's video core video framework. I planned to write networking code in Java, but the project evolved to consist of learning and developing C to Java conversion through Java Native Interface and Java Native Access. Along the way I also picked up skills in video codecs, network packet payloading, and audio encoding.
 
